@@ -465,3 +465,86 @@ footer div.contactinfo a:hover{
     }
 
 }
+
+@media(max-width:768px){
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2 {    
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 102, 0, 0.69);
+    text-align: center;
+    letter-spacing: 15px;
+    padding: 10px 0;
+}
+
+a, h1, h6, h2, h3, h4 {
+    text-decoration: none;
+    font-family: dosis;
+}
+
+header {
+    background-color: white;
+    align-items: center;
+    padding: 0 30px 10px 20px;
+}
+nav{
+    text-align: right;
+}
+
+.nav a{    
+    padding: 0px 12px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 500;    
+}
+
+nav a:nth-last-child(5) {
+    color: brown;    
+}
+
+nav a:hover {
+    color: red;
+}
+
+#banner {
+    background-image: url("images/cement2.jpg");
+    background-size: cover;    
+    border: 7px solid rgb(4, 4, 8);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 250px 0;
+    text-align: center;  
+}
+
+h6 {
+    font-size: 20px;   
+    color: brown;
+    background: white;
+    padding: 15px 0;
+    width: 400;
+    margin: 0 auto 20px;
+    
+}
+
+section#banner a {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: red;
+    padding: 15px 10px;
+    
+}
+
+
+}
