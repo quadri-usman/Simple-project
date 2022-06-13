@@ -1,0 +1,28 @@
+
+@media (max-width:1000px) and (min-width:769px){
+    header{
+        background-color:purple;
+    }
+    marquee{
+        color:#46c96d;
+        font-size:20px;
+        padding:20px;
+    }
+}
+@media (max-width:768px){
+    header{
+        background-color:blue;
+    }
+    marquee{
+        color:#ffffff;
+        font-size:20px;
+        padding:20px;
+    }
+}
+
+
+/*
+
+min-width
+max-width
+*/

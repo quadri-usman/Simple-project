@@ -1,0 +1,467 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+}
+
+h1, h2 {    
+    font-size: 50;
+    color: white;
+    background-color: rgba(0, 102, 0, 0.69);
+    text-align: center;
+    letter-spacing: 15px;
+    padding: 10px 0;
+}
+
+a, h1, h6, h2, h3, h4 {
+    text-decoration: none;
+    font-family: dosis;
+}
+
+header {
+    background-color: white;
+    align-items: center;
+    padding: 0 30px 20px 20px;
+}
+nav{
+    text-align: right;
+}
+
+.nav a{    
+    padding: 0px 12px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 600;    
+}
+
+nav a:nth-last-child(5) {
+    color: brown;    
+}
+
+nav a:hover {
+    color: red;
+}
+
+#banner {
+    background-image: url("images/cement2.jpg");
+    background-size: cover;    
+    border: 7px solid rgb(4, 4, 8);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 250px 0;
+    text-align: center;  
+}
+
+h6 {
+    font-size: 35px;   
+    color: brown;
+    background: white;
+    padding: 15px 0;
+    width: 600;
+    margin: 0 auto 20px;
+    
+}
+
+section#banner a {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: red;
+    padding: 15px 20px;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+div.Box_Wrapper, div.Box_WrapperP {
+    display: flex;            
+    flex-wrap: wrap;    
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    padding: 30px 10px ;
+}
+.box1, .box2, .box3, .box1p, .box2p, .box3p, .box4p, .box5p, .box6p {
+    border: 3PX SOLID brown;
+    border-radius: 5px;
+    color: brown;    
+}
+.box1p, .box2p, .box3p{
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 18px;
+    padding: 10px 0;
+}
+div.Box_Wrapper a, div.Box_WrapperP a{
+    color: rgba(36, 14, 14, 0.838);
+    text-align: center;
+    padding: 0 3px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid white;
+    line-height: 1.5rem;        
+}
+section.message{
+    text-align: center;    
+}
+section.message h3{
+    font-size: 25px;
+    padding-top: 20px;
+}
+textarea, input {
+    font-size: 16px;
+    display: block;
+    padding: 5px 10px;
+    margin: 15px auto;
+    width: 40%;    
+}
+
+h3{
+    color: rgb(252, 14, 14);
+   font-size: 20px;
+   text-transform: uppercase;
+   padding-bottom: 10px;      
+}
+footer {
+    display: flex;       
+    background-color: rgb(36, 36, 36);               
+    align-items: center;    
+}
+footer div p.plast{
+    color: #aeabab;  
+    padding-left: 80px;
+}
+footer div.contact{
+    background-color: #3a3838;
+    padding: 35px 20px;   
+    width: 50%;     
+    color: white; 
+}
+footer div.contactinfo{
+   display: flex;
+   font-size: 20;
+   justify-content: space-between;   
+}
+footer div.contactinfo a, footer div.contactinfo p{
+    color: #00BFFF;
+    padding-top: 5px;
+    
+}
+footer div.contactinfo a:hover{
+    color: cyan;
+}
+@media(max-width:1000px) {
+
+    .nav {
+        text-align: strt;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+    }
+
+
+    nav a:nth-last-child(5) {
+        color: brown;
+        background-color: white;
+    }
+
+    nav a:hover {
+        color: red;
+    }
+
+    h1 {
+        font-size: 20;
+        color: white;
+        background-color: green;
+        background-size: cover;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #banner {
+        color: rgb(107, 43, 209);
+        background-image: radial-gradient(to left rgb(174, 163, 192));
+        background-image: url("images/cement2.jpg");
+        background-size: cover;
+        background-attachment: unset;
+        border: 5px solid white;
+        border-radius: 50px;
+        margin: 0 auto;
+        padding: 100 0px;
+        text-align: center;
+    }
+
+    .banner {
+        font-size: 15;
+        color: brown;
+        background: white;
+        width: 360px;
+
+    }
+
+    .banner1 {
+        color: rgb(98, 0, 255);
+        background: rgb(248, 243, 207);
+        border: 5px solid yellow;
+        font-size: 30;
+        font-style: italic;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    #About_Us {
+        text-align: center;
+        padding: 10;
+
+    }
+
+    h2 {
+        color: rgb(92, 11, 243);
+        background-color: rgb(206, 240, 240);
+    }
+
+    h4 {
+        color: rgb(233, 58, 5);
+        font-size: 30;
+        background-color: white;
+    }
+
+    h3 {
+        color: white;
+        background-color: brown;
+    }
+
+    h5 {
+        color: rgb(231, 16, 16);
+    }
+
+    p.p2 {
+        font-size: 18;
+        color: white;
+        background-color: black;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    section.services {
+
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    section.Portfolio {
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+
+
+    }
+
+    div.Box_Wrapper {
+
+        margin: 10px;
+    }
+
+    .box1 {
+        border: 8PX SOLID white;
+        margin: 12PX;
+
+    }
+
+    .box2 {
+        border: 8PX SOLID brown;
+        margin: 12px;
+        padding: px;
+    }
+
+    .box3 {
+        border: 8PX SOLID white;
+        margin: 12px;
+        padding: px;
+    }
+
+    section {
+        color: brown;
+        background-color: rgb(243, 196, 196);
+    }
+
+    div.Box_WrapperP {
+        background-color: white;
+
+        margin: 10px
+    }
+
+    .box1 {
+        background-color: rgb(241, 122, 10);
+
+
+    }
+
+    .box2 {
+        background-color: rgb(42, 165, 89);
+        background-size: cover;
+
+    }
+
+    .box3 {
+        background-color: rgb(138, 165, 42);
+
+    }
+
+    .box1p {
+        background-color: rgb(218, 230, 152);
+        margin: 10PX;
+        padding: px;
+    }
+
+    .box2p {
+        background-color: rgb(160, 241, 191);
+        margin: 15PX;
+        padding: px;
+    }
+
+    .box3p {
+        background-color: rgb(104, 235, 235);
+        margin: 15PX;
+        padding: px;
+
+    }
+
+    .box4p {
+        background-color: rgb(238, 163, 163);
+        margin: 15PX;
+        padding: px;
+    }
+
+    .box5p {
+        background-color: rgb(235, 158, 70);
+        padding: 0px;
+    }
+
+    .box6p {
+        background-color: rgb(138, 165, 42);
+        padding: 0px;
+    }
+
+    .box1p {
+        border: 8PX SOLID rgb(248, 163, 4);
+        margin: 10PX;
+        padding: px;
+        background-color: blue;
+    }
+
+    .box2p {
+        border: 8PX SOLID rgb(248, 163, 4);
+        margin: 10PX;
+        padding: px;
+        background-color: rgb(160, 241, 191);
+    }
+
+    .box3p {
+        border: 8PX SOLID rgb(248, 163, 4);
+        margin: 10PX;
+        padding: px;
+        background-color: rgb(104, 235, 235);
+    }
+
+    .box4p {
+        border: 8PX SOLID rgb(248, 163, 4);
+        margin: 10PX;
+        padding: px;
+        background-color: rgb(238, 163, 163);
+    }
+
+    .box5p {
+        border: 8PX SOLID rgb(4, 248, 65);
+        margin: 10PX;
+        padding: px;
+        background-color: rgb(235, 158, 70);
+    }
+
+    .box6p {
+        border: 8PX SOLID rgb(248, 163, 4);
+        margin: 10PX;
+        padding: px;
+        background-color: rgb(138, 165, 42);
+    }
+
+    textarea {
+        background-color: rgb(238, 220, 194);
+    }
+
+    footer {
+        background-image: url("images/Screenshot\ \(1\).png");
+        background-color: blueviolet;
+        background-attachment: fixed;
+    }
+
+    section.contact {
+        padding: 0%;
+        margin: 0%;
+        font-stretch: condensed;
+    }
+
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #about_us {
+        padding: 5%;
+        border: 5px solid red;
+        margin: 3%;
+        background-color: white
+    }
+
+    .p1 {
+        color: white;
+        background-color: rgb(188, 7, 243);
+        text-align: center;
+        padding: 15px;
+    }
+
+    .p2 {
+        font-size: 18;
+        font-style: normal;
+        color: white;
+        background-color: black(235, 98, 98);
+        text-align: center;
+        padding: 20px;
+    }
+
+    .plast {
+        background-color: black;
+        padding: 20px;
+        align-self: flex-end;
+        color: white;
+    }
+
+    .contactinfo {
+        font-size: 28;
+    }
+
+    .Contactform {
+        font-size: 25;
+    }
+
+    input {
+        font-size: 20;
+    }
+
+}

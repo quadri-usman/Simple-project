@@ -1,0 +1,95 @@
+@media (max-width:768px){
+    h1{
+        font-size: 8;
+
+    }
+    body{
+        margin: 0;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+        color: black;
+        background-color: white;
+    }
+    #banner{
+        color: rgb(107, 43, 209);
+        background-image: radial-gradient(to left rgb(174, 163, 192));
+        background-image: url("images/gas\ cooker.jpg");
+        background-blend-mode: lighte;
+       
+        border: 5px dashed rgb(22, 218, 80);
+        margin: 10px;
+        padding: 50px;
+    }
+    .banner{
+        font-size: 10;
+        color: brown;
+        background: white;
+        width: 250;   
+        }
+        .banner1{
+            color: rgb(98, 0, 255);
+            background: rgb(248, 243, 207);
+            border: 5px solid white;
+            font-size: 20;
+            font-style: italic;
+            height: 5px;
+        }
+    marquee.banner1{
+        color: rgb(98, 0, 255);
+        background: rgb(248, 243, 207);
+        border: 10px solid yellow;
+        font-size: 10;
+        font-style: italic;
+        height: 10;
+        width: 200;
+        margin: 10px;
+        padding: 0px;
+        
+    }
+    h2.p1{
+        font-size: 15;
+        color: white;
+        background-color: rgb(188, 7, 243);
+        text-align: center;
+        padding: 2px;
+    }
+    p.p2{
+        font-size: 12;
+        font-style: normal;
+        color: white;
+        background-color: black(235, 98, 98);
+        text-align: center;
+        padding: 10px;
+    }
+    div.Box_Wrapper{
+        display:block;
+        margin: 20px;
+    }
+    .box1{
+        width: 250;
+        border: 8PX SOLID white;
+        margin: 10PX;
+        padding: 20px;
+    }
+    .box2{
+        width: 250;
+        border: 8PX SOLID white;
+        margin: 10PX;
+        padding: 20px;
+     }
+    .box3{
+        width: 250;
+        border: 8PX SOLID white;
+        margin: 10PX;
+        padding: 20px;
+     }
+     
+     img{
+         width: 250;
+     }
+     div.Box_WrapperP{
+        display:block;
+     }    
+}
