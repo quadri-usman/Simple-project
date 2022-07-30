@@ -550,5 +550,10 @@ footer {
     background-color: rgb(36, 36, 36);               
     align-items: center;    
 }
-
+footer div.contactinfo{
+        display: block;
+        font-size: 20;
+        justify-content: space-between;   
+     }
+    
 }
