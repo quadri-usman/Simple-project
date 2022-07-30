@@ -545,6 +545,10 @@ section#banner a {
     padding: 15px 10px;
     
 }
-
+footer {
+    display: block;       
+    background-color: rgb(36, 36, 36);               
+    align-items: center;    
+}
 
 }
